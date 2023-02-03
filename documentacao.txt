@@ -1,0 +1,16 @@
+React Router Dom --> é uma biblioteca para se criar rotas das pagisnas no react
+
+comando para a instalação --> npm install react-router-dom@6
+
+ <Route path="/" element={<Inicio/>}/> --> Route é o componente de rota das páginas
+
+ -- Para evitar que a tag <a> tenha seu comportamento padrão é preciso substituila pelo componete Link
+
+ -- o (to) é como se fosse o href do Link
+ 
+ -- Link de apoio a documentação : https://create-react-app.dev/docs/importing-a-component/#absolute-imports
+
+ -- Rotas aninhadas --> Ocorre quando uma rota se torna pai de outras rotas -- é preciso usar um componente chamado
+    </Outlet> 
+
+-- Da para colocar styles diretamente nocomponente -->  style={{backgroundImage: `url(${fotoCapa})`}}
